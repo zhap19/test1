@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context="com.ensten.robert.test1.AddClients">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿CÓMO CONOCE EL CLIENTE MI NEGOCIO?"
+            android:textAlignment="center"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Pulsa sobre uno de los botones para añadir +1 elemento" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:columnCount="2"
+            android:rowCount="3">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="BUSCADORES" />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="TARJETAS" />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="REDES SOCIALES" />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="BOCA A BOCA" />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="LOCALIZACIÓN" />
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:text="OTROS" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="60dp"
+            android:text="Un total de X clientes fueron preguntados"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>
